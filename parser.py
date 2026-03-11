@@ -7,7 +7,7 @@ import time
 
 conn = sqlite3.connect('spimex_trading_results.db')
 cursor = conn.cursor()
-
+# Создание
 cursor.execute('''
 CREATE TABLE IF NOT EXISTS spimex_trading_results (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
